@@ -1,0 +1,17 @@
+{% extends 'flatpages/default.html' %}
+{% load i18n %}
+
+{% block title %}
+    {{ get_title }}
+{% endblock title %}
+
+{% block content %}
+    <h1>{{ get_type }}</h1>
+
+    <form method="POST">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <input id="submitButton" class="btn btn-lg btn-dark" type="submit" value="{% trans 'Сохранить' %}">
+    </form>
+
+{% endblock content %}

@@ -1,0 +1,8 @@
+11.03.2024 12:36:49 INFO autoreload Watching for file changes with StatReloader
+11.03.2024 12:36:56 INFO basehttp "GET /home/ HTTP/1.1" 200 4533
+11.03.2024 12:37:00 INFO basehttp "GET /news/ HTTP/1.1" 200 10844
+11.03.2024 12:37:16 INFO basehttp "GET /news/ HTTP/1.1" 200 10844
+11.03.2024 12:37:21 INFO basehttp "GET /news/search/ HTTP/1.1" 200 12699
+11.03.2024 12:37:24 INFO basehttp "GET /news/categories/4/ HTTP/1.1" 200 9188
+11.03.2024 12:37:28 INFO basehttp "GET /news/search/ HTTP/1.1" 200 12699
+11.03.2024 12:37:33 INFO basehttp "GET /news/search/?title=&author=3&datetime_post= HTTP/1.1" 200 10754

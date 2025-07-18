@@ -1,0 +1,12 @@
+{% extends 'flatpages/default.html' %}
+{% load i18n %}
+
+{% block title %}
+    {% trans 'Ошибка 404' %}
+{% endblock title %}
+
+{% block content %}
+    <br>
+    <h1>{% trans 'Страница не найдена!' %}</h1>
+
+{% endblock content %}

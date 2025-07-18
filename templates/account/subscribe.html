@@ -1,0 +1,15 @@
+{% extends 'flatpages/default.html' %}
+{% load i18n %}
+
+{% block title %}
+    {% trans 'Подписаться' %}
+{% endblock title %}
+
+{% block content %}
+    <h1 class="text-center">{{ message }} <i>{{ category }}</i></h1>
+    <hr>
+    <div style="text-align: left;">
+        <p>{% trans 'Теперь на вашу эл. почту будет приходить уведомления при появлении новых публикаций по данной категории!' %}</p>
+        <p>{% trans 'Также каждую неделю будет приходить список публикаций за последнюю неделю!' %}</p>
+    </div>
+{% endblock content %}

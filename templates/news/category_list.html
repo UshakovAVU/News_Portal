@@ -1,0 +1,56 @@
+{% extends 'flatpages/default.html' %}
+{% load i18n %}
+
+{% load custom_filters %}
+
+{% block title %}
+    {{ category }}
+{% endblock title %}
+
+{% block content %}
+    {% if is_not_subscriber %}
+        <p class="text-center">
+            <a href="{% url 'subscribe' category.id %}" class="btn btn-primary btn-md">{% trans 'Подписаться' %}</a>
+        </p>
+    {% else %}
+        <p class="text-center">
+            <a href="{% url 'unsubscribe' category.id %}" class="btn btn-primary btn-md">{% trans 'Отписаться' %}</a>
+        </p>
+    {% endif %}
+    <h1>{% trans 'Новостная лента' %}</h1>
+    {% if category_news_list %}
+    <p><i>{% trans 'Количество публикаций:' %} <u>{{category_news_list|length}}</u></i></p>
+    <table width="100%">
+        <tr align="center">
+            <th>{% trans 'Заголовок' %}</th>
+            <th>{% trans 'Краткое содержание' %}</th>
+            <th>{% trans 'Дата публикации' %}</th>
+            <th>{% trans 'Категория' %}</th>
+        </tr>
+
+        {% for post in category_news_list %}
+        <tr class="{% cycle 'green' 'white' %}">
+            <td align="left" width="55%">
+                {% if post.post_type == "NE" %}
+                    <a class="nav-link" href="/news/{{ post.id }}">{{ post.title|censor }}</a>
+                {% else %}
+                   <a class="nav-link" href="/article/{{ post.id }}">{{ post.title|censor }}</a>
+                {% endif %}
+            </td>
+            <td align="left" width="23%">{{ post.text|censor|truncatechars:20 }}</td>
+            <td align="center" width="10%">{{ post.datetime_post|date:'d M Y' }}</td>
+            <td width="12%">
+                {% for category in post.category.all %}
+                    <a href="{% url 'category_list' category.id %}">{{ category }}</a>
+                {% endfor %}
+            </td>
+        </tr>
+        {% endfor %}
+    </table>
+    {% else %}
+        <h2>{% trans 'Публикаций нет!' %}</h2>
+    {% endif %}
+
+{% include "flatpages/paginate.html" %}
+
+{% endblock content %}

@@ -1,0 +1,12 @@
+{% extends 'flatpages/default.html' %}
+{% load i18n %}
+
+{% block title %}
+    {% trans 'Новость/Статья' %}
+{% endblock title %}
+
+{% block content %}
+    <br>
+    <h1>{% trans 'Новость или Статья не найдены!' %}</h1>
+
+{% endblock content %}
