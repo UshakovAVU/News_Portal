@@ -184,4 +184,27 @@ __pycache__/
 *.pyc
 *.pyo
 *.
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Database
+db.sqlite3
+
+# Log files
+logs/*
+
+# PyCharm files
+.idea/
+
+# Cache files
+cache_files/
+
+# Django media files (если есть)
+media/
+
+# Virtual environment
+venv/
 
