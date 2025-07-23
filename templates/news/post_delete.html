@@ -1,0 +1,28 @@
+{% extends 'flatpages/default.html' %}
+{% load i18n %}
+
+{% block title %}
+    {% trans 'Удалить новость/статью' %}
+{% endblock title %}
+
+{% block content %}
+    <h2>{% trans 'Вы действительно хотите удалить данную новость?' %}</h2>
+    <table>
+        <thead>
+            <th>{% trans 'Заголовок' %}</th>
+            <th>{% trans 'Дата публикации' %}</th>
+            <th>{% trans 'Текст' %}</th>
+        </thead>
+        <tr>
+            <td>{{ post.title }}</td>
+            <td>{{ post.datetime_post|date:'d M. Y' }}</td>
+            <td>{{ post.text }}</td>
+        </tr>
+    </table>
+
+    <form method="POST">
+        {% csrf_token %}
+        <br>
+        <input id="submitButton" class="btn btn-lg btn-dark" type="submit" value="{% trans 'Подтвердить' %}">
+    </form>
+{% endblock content %}

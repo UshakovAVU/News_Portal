@@ -1,0 +1,1256 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2025-06-18T06:17:08.100Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "/home/ -- Новостной Портал",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2025-06-22T12:03:47.291Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "127.0.0.1",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Domain name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2025-06-22T12:07:45.344Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "1",
+    "object_repr": "Google",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2025-06-23T06:11:03.942Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "1",
+    "object_repr": "common",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2025-06-23T06:11:16.523Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "2",
+    "object_repr": "authors",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2025-06-23T06:12:23.160Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "2",
+    "object_repr": "authors",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2025-06-23T07:20:50.529Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "5",
+    "object_repr": "test",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Groups\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2025-06-23T07:38:06.906Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "5",
+    "object_repr": "test",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Groups\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2025-06-23T07:54:28.232Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "2",
+    "object_repr": "authors",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2025-06-23T08:03:42.806Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "5",
+    "object_repr": "test",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Groups\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2025-06-23T08:16:14.298Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "5",
+    "object_repr": "test",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Groups\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2025-06-23T11:00:26.598Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "5",
+    "object_repr": "test",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Groups\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2025-06-23T11:15:00.215Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "5",
+    "object_repr": "test",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Groups\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2025-06-23T11:18:55.263Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "5",
+    "object_repr": "test",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Groups\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2025-06-23T11:31:59.402Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "5",
+    "object_repr": "test",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Groups\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2025-06-23T11:54:14.429Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "6",
+    "object_repr": "test2",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2025-06-24T04:33:28.085Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "1",
+    "object_repr": "Google",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Client id\", \"Secret key\"]}}]"
+  }
+},
+{
+  "model": "auth.group",
+  "pk": 1,
+  "fields": {
+    "name": "common",
+    "permissions": []
+  }
+},
+{
+  "model": "auth.group",
+  "pk": 2,
+  "fields": {
+    "name": "authors",
+    "permissions": [
+      41,
+      42
+    ]
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$720000$B9SQsj5QmCuQzfQiUejFbU$zYmb4qG7Di5f/aQaDiTqGawvCikPVtiRgY8hgUcjRXs=",
+    "last_login": "2025-06-27T06:19:08.800Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2025-06-18T06:15:04.592Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 2,
+  "fields": {
+    "password": "!n44WdDQAAeMLiw69Muddmk4dJxjkANC9HbpLAreb",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "Алексей",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-06-18T06:15:26.403Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 3,
+  "fields": {
+    "password": "!6UhSTzDImS2kZQ0ESKLbfJCi9vG9ZRaCiTC0JU9g",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "Андрей",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-06-18T06:15:26.423Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 4,
+  "fields": {
+    "password": "!JIYxuxYg1ddJa3FpJQUnbJOt9UWc2M4DW06ccOK1",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "Максим",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-06-18T06:15:26.430Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 5,
+  "fields": {
+    "password": "pbkdf2_sha256$720000$AvS8suRwvFhVOqpmG32g3y$/1zXi/OcCGXgn9KzOhs7AxzxmsfskBNPV0CdhHmLjAE=",
+    "last_login": "2025-06-23T11:32:23.713Z",
+    "is_superuser": false,
+    "username": "test",
+    "first_name": "",
+    "last_name": "",
+    "email": "test@test.ru",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-06-23T07:04:50Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 7,
+  "fields": {
+    "password": "pbkdf2_sha256$720000$XtoMIJHpC5oWXt579WTiFf$0DlHyB3hsOXXhE177NrQmAOATWO5WmLazCRMt1gCYDM=",
+    "last_login": "2025-06-24T07:44:00.723Z",
+    "is_superuser": false,
+    "username": "test2",
+    "first_name": "",
+    "last_name": "",
+    "email": "test2@test.ru",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-06-24T07:43:58.695Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 8,
+  "fields": {
+    "password": "pbkdf2_sha256$720000$MHaviRLTiMoRH7gCxgJYN4$adxPrqb9p1DBEnB1v0hSRRWzkVdhSIFLTDHShzfAT6U=",
+    "last_login": "2025-06-31T19:14:51.797Z",
+    "is_superuser": false,
+    "username": "udens1",
+    "first_name": "",
+    "last_name": "",
+    "email": "udens1@rambler.ru",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-06-31T19:14:06.105Z",
+    "groups": [
+      1,
+      2
+    ],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 9,
+  "fields": {
+    "password": "pbkdf2_sha256$720000$wI17BmCO1x4ApyxS7BzZUN$Iqn5NkRtUjbixWJHys/8YRw0cfHGEXSjSv+evx4W25g=",
+    "last_login": "2025-07-05T12:56:54.897Z",
+    "is_superuser": false,
+    "username": "straigaldvir",
+    "first_name": "",
+    "last_name": "",
+    "email": "straigaldvir@yandex.ru",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-07-31T19:22:09.628Z",
+    "groups": [
+      1,
+      2
+    ],
+    "user_permissions": []
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "9puk54gxrgoz58fcrsugz29m0y6ba45t",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSHA8Cgu3fsNZIahUjU0Ke3K-O_apAvd3nPOfYmE21rT1suSJhZnocXpdyPMj9J2wHdst1nmua3LRHJX5EG7vM5cnpfD_Tuo2Ou3DoBQNPswqiEOYIxRzpAy2o8BIoN23mdPwfqCQJoousgFYsSANmgr3h-w5Ta4:1rS9zp:51EO0mNHlCcJLt3GDjxaBLlC_SSK2rJV6kycY52c7qM",
+    "expire_date": "2025-07-06T06:10:53.607Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "an8kg98ssxsuwhhcwlte4nwvjenlauzs",
+  "fields": {
+    "session_data": ".eJxlUEFugzAQ_MueEbIBY5tT029UlbW2l2KVQGSbNlGUvxdSLrS31czs7OzcAZ2blykbXPJAUw4Oc5gnc6Y8zD5B93aH3xk6uGBK33P0UABm6LhkktdS8aZUQjGmC6AzhnFVphwxfODov0J8ueHk6VrGBR7vBTwvmSVRNGEz1XDALLpPmjYCx3GDyz1h-dTsdCpPh7yv-9bBasA0rD6c-6qRzBNntW2p0Yxahq3ora-ZZ7Lpqa-EFY2y1nrnK0XERd-2omVaard9-78k8uZPB5opuVZgEqW0VUjXS4g36NjjBzKbd-g:1rWyWs:3rd-iWZvsJlvGgCAC2bDndQ1zOdsgRhOs-r2f8b7L-4",
+    "expire_date": "2025-07-19T12:56:54.911Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "sdc8f8b6cxbjhepqz7qrsdpqxwhenhfq",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSHA8Cgu3fsNZIahUjU0Ke3K-O_apAvd3nPOfYmE21rT1suSJhZnocXpdyPMj9J2wHdst1nmua3LRHJX5EG7vM5cnpfD_Tuo2Ou3DoBQNPswqiEOYIxRzpAy2o8BIoN23mdPwfqCQJoousgFYsSANmgr3h-w5Ta4:1rSBb5:y3KHG-Q_yPESF7kMvQlRezyXoCHnCycAMKj9AESGI6M",
+    "expire_date": "2025-07-06T07:53:27.754Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "taqbg33qt0l1m5wjwki8ych7pabul53e",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSHA8Cgu3fsNZIahUjU0Ke3K-O_apAvd3nPOfYmE21rT1suSJhZnocXpdyPMj9J2wHdst1nmua3LRHJX5EG7vM5cnpfD_Tuo2Ou3DoBQNPswqiEOYIxRzpAy2o8BIoN23mdPwfqCQJoousgFYsSANmgr3h-w5Ta4:1rQLhG:BSxXLUoWDEnQhRuMFc9HGhs-36KH3QCR3rAQYc5jo-4",
+    "expire_date": "2025-07-01T06:16:14.820Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "twzb6n9utnejo7cwgm71t6vd2wfqlydx",
+  "fields": {
+    "session_data": ".eJxVj8EOwjAMQ_-lZzS1XViy3eBHqnRNtYpSJNZxQfw7GxpCHG0nz_JT8TjellLdQ-4pJglOrpyyGsqS80E5XurkllnuLgU1KFR_nufxImULOOfNbnZc87nZ47k5rUpKTSPXdCvn_esPNfE8rRzq0VCkvvVARBLFxqjlCNBj76NvNZIB9F0wyAgRAgQiHYACGGvErtDvIv6VrrO4qsGg7jRZC7pBsF1r4PUGqmlVRA:1rSXvU:gjqv-BpxqFPpxWmHXYQBtw2Q2P6Cmv4DjRxwNRoC7Wo",
+    "expire_date": "2025-07-07T07:44:00.748Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "vf3vwwfx76rifb95gp5fdxiywy4nk5ps",
+  "fields": {
+    "session_data": "eyJzb2NpYWxhY2NvdW50X3N0YXRlIjpbeyJwcm9jZXNzIjoibG9naW4iLCJzY29wZSI6IiIsImF1dGhfcGFyYW1zIjoiIn0sInVrOWRraW5ldlpJNm5wVjciXX0:1rSWGx:_YQVEnIBTESIGh9BTbm7h-OwzcIuDIe-Du5EAB0EZGw",
+    "expire_date": "2025-07-07T05:58:03.212Z"
+  }
+},
+{
+  "model": "sites.site",
+  "pk": 1,
+  "fields": {
+    "domain": "127.0.0.1",
+    "name": "example.com"
+  }
+},
+{
+  "model": "flatpages.flatpage",
+  "pk": 1,
+  "fields": {
+    "url": "/home/",
+    "title": "Новостной Портал",
+    "content": "<br>\r\n<h1>Добро пожаловать!</h1>",
+    "enable_comments": false,
+    "template_name": "",
+    "registration_required": false,
+    "sites": [
+      1
+    ]
+  }
+},
+{
+  "model": "news.author",
+  "pk": 1,
+  "fields": {
+    "user": 2,
+    "rating": 37
+  }
+},
+{
+  "model": "news.author",
+  "pk": 2,
+  "fields": {
+    "user": 3,
+    "rating": 27
+  }
+},
+{
+  "model": "news.author",
+  "pk": 3,
+  "fields": {
+    "user": 4,
+    "rating": 25
+  }
+},
+{
+  "model": "news.author",
+  "pk": 4,
+  "fields": {
+    "user": 7,
+    "rating": 0
+  }
+},
+{
+  "model": "news.author",
+  "pk": 5,
+  "fields": {
+    "user": 8,
+    "rating": 0
+  }
+},
+{
+  "model": "news.author",
+  "pk": 6,
+  "fields": {
+    "user": 9,
+    "rating": 0
+  }
+},
+{
+  "model": "news.category",
+  "pk": 1,
+  "fields": {
+    "name": "Политика",
+    "subscribers": []
+  }
+},
+{
+  "model": "news.category",
+  "pk": 2,
+  "fields": {
+    "name": "Финансы",
+    "subscribers": []
+  }
+},
+{
+  "model": "news.category",
+  "pk": 3,
+  "fields": {
+    "name": "Спорт",
+    "subscribers": [
+      8
+    ]
+  }
+},
+{
+  "model": "news.category",
+  "pk": 4,
+  "fields": {
+    "name": "Авто",
+    "subscribers": [
+      8,
+      9
+    ]
+  }
+},
+{
+  "model": "news.post",
+  "pk": 1,
+  "fields": {
+    "author": 1,
+    "post_type": "NE",
+    "datetime_post": "2025-06-08T06:15:26.497Z",
+    "title": "Курс доллара на открытии торгов Мосбиржи опустился до 88,35 рубля",
+    "text": "Курс американской валюты на открытии торгов Московской биржи в понедельник опустился на 6 копеек по сравнению с уровнем закрытия предыдущих торгов и составил 88,35 рубля. Сделок по евро в начале торгов не проводилось. Курс юаня остался прежним — 12,23 рубля.",
+    "rating": 3
+  }
+},
+{
+  "model": "news.post",
+  "pk": 2,
+  "fields": {
+    "author": 3,
+    "post_type": "NE",
+    "datetime_post": "2025-06-09T06:15:26.504Z",
+    "title": "Bloomberg: ЕЦБ может снизить ставку четыре раза в 2024 году из-за замедления инфляции",
+    "text": "По данным агентства, регулятор сократит ставку по депозитам на 25 базисных пунктов в июне, сентябре, октябре и декабре.  Европейский центральный банк (ЕЦБ) может четыре раза принять решение о снижении процентной ставки в 2024 году на фоне замедления инфляции. Об этом сообщило агентство Bloomberg со ссылкой на экспертов.",
+    "rating": 2
+  }
+},
+{
+  "model": "news.post",
+  "pk": 3,
+  "fields": {
+    "author": 2,
+    "post_type": "NE",
+    "datetime_post": "2025-06-11T06:15:26.510Z",
+    "title": "Британские бары массово закрываются из-за роста цен на энергию",
+    "text": "В Великобритании из-за роста коммунальных счетов и стоимости аренды закрываются тысячи баров и ресторанов, пишет издание Independent, ссылаясь на данные консалтинговой группы CGA. «Тысячи баров, ресторанов и пабов по всей Великобритании навсегда прекращают деятельность из-за непомерной стоимости аренды, производственных расходов», — говорится в публикации.",
+    "rating": 1
+  }
+},
+{
+  "model": "news.post",
+  "pk": 4,
+  "fields": {
+    "author": 1,
+    "post_type": "NE",
+    "datetime_post": "2025-06-11T06:15:26.516Z",
+    "title": "Топ-10 худших российских акций 2023 года. Рейтинг «РБК Инвестиций»",
+    "text": "2023 год был суперуспешным для российских инвесторов — плюс 44% по индексу Мосбиржи. Однако на фоне общего ударного роста нашлись акции, которые показали снижение. Рассмотрим 10 бумаг, пострадавших сильнее всего. Российский фондовый рынок в 2023 году показал весьма неплохие результаты. Индекс Московской биржи за год вырос на 43,87% с 2154,12 пункта до 3099,11 пункта. Из 238 акций, которые торговались как в конце 2022 года, так и в конце 2023 года, подорожали 224 бумаги.",
+    "rating": 1
+  }
+},
+{
+  "model": "news.post",
+  "pk": 5,
+  "fields": {
+    "author": 2,
+    "post_type": "NE",
+    "datetime_post": "2025-06-13T06:15:26.522Z",
+    "title": "Маск назвал кандидата в президенты США, которому доверяет",
+    "text": "Американский предприниматель Илон Маск заявил в социальной сети X, что доверяет претенденту на пост президента США от Республиканской партии Вивеку Рамасвами. Ранее Рамасвами заявил, что намерен вывести США из НАТО в случае своей победы на президентских выборах 2024 года. Как отмечало издание Politico, в случае победы Рамасвами или другого политика, разделяющего его взгляды на Североатлантический альянс, дни НАТО «будут сочтены».",
+    "rating": 1
+  }
+},
+{
+  "model": "news.post",
+  "pk": 6,
+  "fields": {
+    "author": 1,
+    "post_type": "NE",
+    "datetime_post": "2025-06-13T06:15:26.530Z",
+    "title": "В Конгрессе договорились о продлении финансирования ведомств США",
+    "text": "Демократы и республиканцы в Конгрессе США достигли договоренностей относительно законопроекта, предусматривающего продление финансирования одних правительственных структур до 1 марта, а других — до 8 марта. Об этом говорится в заявлении лидера демократического большинства в Сенате Чака Шумера (от штата Нью-Йорк), опубликованном в воскресенье.",
+    "rating": 2
+  }
+},
+{
+  "model": "news.post",
+  "pk": 7,
+  "fields": {
+    "author": 1,
+    "post_type": "AR",
+    "datetime_post": "2025-06-13T06:15:26.536Z",
+    "title": "Минприроды предложило взимать авансом экосбор с импортеров шин и упаковки",
+    "text": "Минприроды предложило провести с 1 июня 2024 года по 31 декабря 2026 года эксперимент по сбору экосбора с импортеров шин и упаковки до выпуска товара в оборот на территории России. Сейчас производители вносят платежи за 2023 год",
+    "rating": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 8,
+  "fields": {
+    "author": 2,
+    "post_type": "NE",
+    "datetime_post": "2025-06-14T06:15:26.543Z",
+    "title": "«Милан» разбил «Рому», Мбаппе помог «ПСЖ» покончить с давним комплексом, Шапи разбушевался в Греции",
+    "text": "В субботу «Манчестер Сити» поднялся на второе место, а сутки спустя чемпионы получили подарок от Шона Дайча, чей «Эвертон» притормозил «Астон Виллу». Возможно, для бирмингемцев все сложилось бы проще, если бы по ходу розыгрыша углового ВАР не обнаружил офсайд и не отменил гол Алекса Морено. А на перерыв гости и вовсе могли уйти, уступая в счете, однако режим супермена включил Эмилиано Мартинес. В одной атаке он сначала заставил всех вспомнить финал ЧМ-2022, остановив выход Калверта-Льюинна один на один, а потом невероятным образом среагировал на коварный рикошет.",
+    "rating": 1
+  }
+},
+{
+  "model": "news.post",
+  "pk": 9,
+  "fields": {
+    "author": 2,
+    "post_type": "NE",
+    "datetime_post": "2025-06-15T06:15:26.578Z",
+    "title": "Класико имени Винисиуса. Хет-трик бразильца принес «Реалу» Суперкубок и уничтожил «Барселону» в финале",
+    "text": "Мадридцы взяли у «Барсы» реванш за проигранный финал годичной давности. Как-то перед выставочной встречей с «Барселоной» во время американского турне Карло Анчелотти очень тонко заметил: «В класико не может быть товарищеских матчей». И совместная фотосессия итальянца с Хави с последующим обменом комплиментами ничего не меняла. Соответственно, и рассуждения о некой вторичности Суперкубка Испании не имели никакого практического смысла.",
+    "rating": 1
+  }
+},
+{
+  "model": "news.post",
+  "pk": 10,
+  "fields": {
+    "author": 3,
+    "post_type": "NE",
+    "datetime_post": "2025-06-15T06:15:26.585Z",
+    "title": "Панарин побил рекорд канадской легенды. Его «Рейнджерс» обыграли «Вашингтон» без Овечкина",
+    "text": "«Столичные» сопротивлялись до последнего, а нью-йоркцы прервали серию поражений. Александр Овечкин пропустил вторую игру подряд. Его по-прежнему беспокоит повреждение ноги, полученное еще на прошлой неделе в столкновении с форвардом «Каролины» Джорданом Стаалом. Оставшись без своего лидера, «Кэпиталз» на фоне мощного соперника смотрелись ничуть не хуже. Хотя главный тренер команды Спенсер Карбери достаточно искренне объяснил, насколько позитивно влияет на остальных игроков одно лишь присутствие Овечкина на скамейке.",
+    "rating": 1
+  }
+},
+{
+  "model": "news.post",
+  "pk": 11,
+  "fields": {
+    "author": 1,
+    "post_type": "AR",
+    "datetime_post": "2025-06-16T06:15:26.591Z",
+    "title": "Виктория Сливко отморозила ногу во время масс-старта на ЧР в Чайковском",
+    "text": "Российская биатлонистка, представляющая Тюменскую область, Виктория Сливко прокомментировала результат масс-старта в рамках чемпионата России — 2023/2024 в Чайковском (Пермский край). Спортсменка завоевала серебро, уступив Тамаре Дербушевой (Свердловская область), которая заняла первое место с показателем 39.45,5. «Сегодня мне не хватило точной стрельбы и ходом гонка была тяжёлая, очень холодно. Надо добавлять в том, чего не хватило и потом выигрывать. Я очень сильно сегодня замёрзла в ходе гонки и отморозила ногу», — сказала Сливко в интервью Metaratings.",
+    "rating": 1
+  }
+},
+{
+  "model": "news.post",
+  "pk": 12,
+  "fields": {
+    "author": 3,
+    "post_type": "NE",
+    "datetime_post": "2025-06-17T06:15:26.598Z",
+    "title": "Мария Шарапова приобрела роскошное поместье в Монтесито за $ 11,5 млн",
+    "text": "Пятикратная чемпионка турниров «Большого шлема», бывшая первая ракетка мира, россиянка Мария Шарапова приобрела недвижимость за $ 11,5 млн, сообщает Robb Report. По информации издания, Шарапова стала владелицей изысканного поместья в Монтесито (штат Калифорния, округ Санта-Барбара), площадь которого составляет 3,3 акра (1,34 гектара).",
+    "rating": 1
+  }
+},
+{
+  "model": "news.post",
+  "pk": 13,
+  "fields": {
+    "author": 1,
+    "post_type": "NE",
+    "datetime_post": "2025-06-17T06:15:26.605Z",
+    "title": "Дилер решил привезти в Россию 1200-сильный китайский внедорожник BYD",
+    "text": "Продажи внедорожника BYD Yangwang U8 стартуют в России в конце января, об этом «Российской газете» рассказал директор «Авилон Электро» Сергей Мелюх. «Стоимость модели составит от 29 990 000 рублей. Внедорожник оснащен мощным двигателем 1 200 л.с., инновационной системой полного привода. Механические, гидравлические и электронные системы управления данной модели объединены в единую интеллектуальную систему, что позволяет BYD U8 совершать разворот на месте на 360 градусов, существенно увеличивать клиренс, сохранять чрезвычайную устойчивость в экстремальных погодных условиях и при езде по заснеженным и обледенелым трассам.",
+    "rating": 1
+  }
+},
+{
+  "model": "news.post",
+  "pk": 14,
+  "fields": {
+    "author": 3,
+    "post_type": "NE",
+    "datetime_post": "2025-06-18T06:15:26.612Z",
+    "title": "На что смотреть при выборе любой подержанной машины?",
+    "text": "Безумные ценники в автосалонах и дефицит новых автомобилей подтолкнули многих россиян к поиску альтернативы на вторичном рынке. Несмотря на то, что продаваемые сейчас машины с пробегом — это зачастую откровенный хлам, найти достойные экземпляры по разумной цене все же реально. А если бюджет покупки ограничен, то можно сэкономить, например, на услугах автоподборщика. Для этого важно знать, на что в первую очередь смотреть в подержанном автомобиле перед тем, как отвезти его на диагностику в сервис. И какие сигналы машина подает покупателю видом и состоянием своих деталей.",
+    "rating": 1
+  }
+},
+{
+  "model": "news.post",
+  "pk": 15,
+  "fields": {
+    "author": 3,
+    "post_type": "AR",
+    "datetime_post": "2025-06-18T06:15:26.620Z",
+    "title": "Редкий Ferrari 250 Testa Rossa продадут по рекордной цене",
+    "text": "В мире классических Ferrari немногие модели более желанны, чем Testa Rossa 250 Этот потрясающий экземпляр скоро поступит на аукцион RM Sotheby’s. Хотя аукционный дом еще и не опубликовал ориентировочную цену автомобиля, известно, что она будет очень высокой. Аналогичный лот был продан в 2014 году за 40 миллионов долларов. Кузов этой Testa Rossa был изготовлен итальянским дизайнером Серджио Скальетти. Автомобиль выступал в соревнованиях более десяти лет и участвовал в 19 различных гонках, одержав победу в четырех из них. Ferrari построила 250 экземпляров Testa Rossa в период с 1957 по 1961 год. Первоначально автомобиль был разработан для чемпионата мира 1957 года и имел некоторые общие детали с более ранними моделями. Двигатель — 3,0-литровый атмосферный V12 мощностью 300 л.с.",
+    "rating": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 16,
+  "fields": {
+    "author": 2,
+    "post_type": "AR",
+    "datetime_post": "2025-06-18T06:15:26.627Z",
+    "title": "Ленинские сани: история уникального Rolls-Royce",
+    "text": "В коллекции Государственного исторического музея-заповедника «Горки Ленинские» есть очень необычный экспонат — единственный в мире автомобиль Rolls-Royce Silver Ghost («Серебряный призрак») на полугусеничном ходу. Эта машина уникальна не только тем, что вместо задних колес у нее гусеницы, но и тем, что возила Владимира Ильича Ленина. Автомобиль, у которого с завода сзади были установлены обычные колеса, был приобретен для Ленина в Англии осенью 1922 года по заказу компании со сложным названием All Russian Cooperative Society Limited. Фирма эта была учреждена советской кооперативной делегацией в Лондоне летом 1920 года и зарегистрирована в Министерстве торговли Англии. Возглавлял и делегацию, и компанию тогдашний нарком внешней торговли Леонид Красин. Именно эта фирма и выступила в качестве покупателя роскошного «Роллса». Такая схема позволила приобрести машину для Ленина в обход действовавших тогда против молодой Страны Советов экономических санкций.",
+    "rating": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 17,
+  "fields": {
+    "author": 3,
+    "post_type": "NE",
+    "datetime_post": "2025-06-18T06:19:31.351Z",
+    "title": "Нехороший человек — редиска!",
+    "text": "Проверка работы фильтра",
+    "rating": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 43,
+  "fields": {
+    "author": 1,
+    "post_type": "NE",
+    "datetime_post": "2025-06-31T19:24:47.686Z",
+    "title": "«АвтоВАЗ» вернет в продажу Lada Granta в двух популярных цветах",
+    "text": "Автомобили Lada Granta возвращаются в продажу в темно-сером и золотисто-коричневом цветах — «борнео» и «кориандр», официальные дилеры уже принимают на них заказы, говорится в сообщении «АвтоВАЗа»\r\n«Lada расширяет цветовую гамму своего бестселлера, семейства Granta, возвращая в палитру популярные металлики — серебристо-темно-серый “борнео” и золотисто-коричневый “кориандр”. Официальные дилеры Lada уже принимают заказы на автомобили в этих цветах. Доплата за металлизированную эмаль составляет 15 тысяч рублей», — говорится в сообщении.\r\n\r\nЦвета «борнео» и «кориандр» являются достаточно сложными с технологической точки зрения. Перед их освоением была проведена переналадка всей технологии окраски кузовов, что было связано с применением материалов от новых поставщиков, уточнили в «АвтоВАЗе».",
+    "rating": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 44,
+  "fields": {
+    "author": 3,
+    "post_type": "AR",
+    "datetime_post": "2025-06-31T19:25:37.175Z",
+    "title": "Mazda показала преемника кроссовера CX-7",
+    "text": "Японская компания Mazda представила новый гибридный кроссовер Mazda CX-70 для рынка США. Как сообщает пресс-служба бренда, продажи начнутся весной года. Машина придет на смену модели CX-7.\r\nОтмечается, что Mazda CX-70 представляет собой среднеразмерный пятиместный кроссовер. Внешне автомобиль напоминает другую модель, Mazda CX-90. Однако отличается от нее видоизмененными бамперами и решеткой радиатора, а также оригинальными 21-дюймовыми алюминиевыми дисками. Салон автомобиля выполнен в глубоких бордовых тонах.\r\n\r\nMazda CX-70 будет предлагаться с подключаемой гибридной установкой, которая сочетает в себе 2,5-литровый четырехцилиндровый двигатель, аккумуляторную батарею емкостью 17,8 кВт.ч и электродвигатель. Суммарная мощность системы составит 323 л.с. Только на электричестве автомобиль сможет проехать 40 км. Кроме того, покупатель сможет приобрести машину с 3,3-литровым рядным турбомотором и 48-вольтовым стартер-генератором. Отдача такого агрегата — 345 л.с. Обе модификации оснащаются восьмиступенчатой автоматической коробкой передач и полным приводом.",
+    "rating": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 45,
+  "fields": {
+    "author": 2,
+    "post_type": "AR",
+    "datetime_post": "2025-06-31T19:26:36.110Z",
+    "title": "НХЛ внезапно состарилась. Что это значит?",
+    "text": "Средний возраст лиги внезапно подскочил, а новички переставали делать результат в дебютных сезонах.\r\nЕсли вы следите за тем, что пишут американские болельщики клубов НХЛ, то знаете, что поклонение молодёжи и драфт-пикам приобрело в фанатской среде характер культа. Любой драфт-пик воспринимается ценным активом, игроки из первого раунда — священные коровы, некоторые из которых продлевают свою карьеру в лиге лишь благодаря полученному когда-то статусу. После драфта Бедарда кто-то даже предлагал «Эдмонтону» рассмотреть возможность обмена на Макдэвида один в один — и это на тот момент, когда более молодой Конор даже в лиге не сыграл.\r\n\r\nПожалуй, пиком молодёжных безумств стала сборная Северной Америки из игроков младше 23 лет, которая на Кубке мира — 2016 ничего не выиграла, но устроила несколько ярчайших матчей. Спустя несколько лет её состав кажется фантастическим: Макдэвид и Мэттьюс в одном звене, Маккиннон и Годро, Айкел и Ларкин, в воротах — дуэт Хеллебайка и Гибсона. За год до этого в НХЛ прошёл главный драфт поколения: на церемонии 2015-го можно было наткнуться на бриллиант даже в пятом раунде, и даже в прошлом году о себе успевали заявить не раскрывшиеся за несколько сезонов таланты.",
+    "rating": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 46,
+  "fields": {
+    "author": 1,
+    "post_type": "AR",
+    "datetime_post": "2025-06-05T12:57:16.208Z",
+    "title": "В России продают гиперкар Bugatti Divo за 1,12 млрд рублей",
+    "text": "Автосалон из Иркутска выставил на продажу гиперкар Bugatti Divo за 1,12 млрд рублей, сообщает «Южный автомобиль». Правда, машина находится в Монако, а ее доставка покупателю займет три недели.",
+    "rating": 0
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 1,
+  "fields": {
+    "post": 1,
+    "category": 2
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 2,
+  "fields": {
+    "post": 2,
+    "category": 2
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 3,
+  "fields": {
+    "post": 3,
+    "category": 2
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 4,
+  "fields": {
+    "post": 4,
+    "category": 2
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 5,
+  "fields": {
+    "post": 5,
+    "category": 1
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 6,
+  "fields": {
+    "post": 6,
+    "category": 1
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 7,
+  "fields": {
+    "post": 6,
+    "category": 2
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 8,
+  "fields": {
+    "post": 7,
+    "category": 1
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 9,
+  "fields": {
+    "post": 8,
+    "category": 3
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 10,
+  "fields": {
+    "post": 9,
+    "category": 3
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 11,
+  "fields": {
+    "post": 10,
+    "category": 3
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 12,
+  "fields": {
+    "post": 11,
+    "category": 3
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 13,
+  "fields": {
+    "post": 12,
+    "category": 2
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 14,
+  "fields": {
+    "post": 12,
+    "category": 3
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 15,
+  "fields": {
+    "post": 13,
+    "category": 4
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 16,
+  "fields": {
+    "post": 14,
+    "category": 4
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 17,
+  "fields": {
+    "post": 15,
+    "category": 4
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 18,
+  "fields": {
+    "post": 16,
+    "category": 4
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 19,
+  "fields": {
+    "post": 17,
+    "category": 1
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 44,
+  "fields": {
+    "post": 43,
+    "category": 4
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 45,
+  "fields": {
+    "post": 44,
+    "category": 4
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 46,
+  "fields": {
+    "post": 45,
+    "category": 3
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 47,
+  "fields": {
+    "post": 46,
+    "category": 4
+  }
+},
+{
+  "model": "news.comment",
+  "pk": 1,
+  "fields": {
+    "post": 1,
+    "user": 2,
+    "text": "Текст комментария №1",
+    "datetime_comment": "2025-06-18T06:15:26.758Z",
+    "rating": 1
+  }
+},
+{
+  "model": "news.comment",
+  "pk": 2,
+  "fields": {
+    "post": 1,
+    "user": 3,
+    "text": "Текст комментария №2",
+    "datetime_comment": "2025-06-18T06:15:26.766Z",
+    "rating": 1
+  }
+},
+{
+  "model": "news.comment",
+  "pk": 3,
+  "fields": {
+    "post": 2,
+    "user": 2,
+    "text": "Текст комментария №3",
+    "datetime_comment": "2025-06-18T06:15:26.773Z",
+    "rating": 2
+  }
+},
+{
+  "model": "news.comment",
+  "pk": 4,
+  "fields": {
+    "post": 3,
+    "user": 3,
+    "text": "Текст комментария №4",
+    "datetime_comment": "2025-06-18T06:15:26.780Z",
+    "rating": 1
+  }
+},
+{
+  "model": "news.comment",
+  "pk": 5,
+  "fields": {
+    "post": 4,
+    "user": 4,
+    "text": "Текст комментария №5",
+    "datetime_comment": "2025-06-18T06:15:26.786Z",
+    "rating": 3
+  }
+},
+{
+  "model": "news.comment",
+  "pk": 6,
+  "fields": {
+    "post": 5,
+    "user": 3,
+    "text": "Текст комментария №6",
+    "datetime_comment": "2025-06-18T06:15:26.792Z",
+    "rating": 1
+  }
+},
+{
+  "model": "news.comment",
+  "pk": 7,
+  "fields": {
+    "post": 6,
+    "user": 2,
+    "text": "Текст комментария №7",
+    "datetime_comment": "2025-06-18T06:15:26.799Z",
+    "rating": 0
+  }
+},
+{
+  "model": "news.comment",
+  "pk": 8,
+  "fields": {
+    "post": 7,
+    "user": 3,
+    "text": "Текст комментария №8",
+    "datetime_comment": "2025-06-18T06:15:26.805Z",
+    "rating": 1
+  }
+},
+{
+  "model": "news.comment",
+  "pk": 9,
+  "fields": {
+    "post": 8,
+    "user": 4,
+    "text": "Текст комментария №9",
+    "datetime_comment": "2025-06-18T06:15:26.811Z",
+    "rating": 1
+  }
+},
+{
+  "model": "news.comment",
+  "pk": 10,
+  "fields": {
+    "post": 9,
+    "user": 2,
+    "text": "Текст комментария №10",
+    "datetime_comment": "2025-06-18T06:15:26.818Z",
+    "rating": 3
+  }
+},
+{
+  "model": "news.comment",
+  "pk": 11,
+  "fields": {
+    "post": 10,
+    "user": 3,
+    "text": "Текст комментария №11",
+    "datetime_comment": "2025-06-18T06:15:26.824Z",
+    "rating": 1
+  }
+},
+{
+  "model": "news.comment",
+  "pk": 12,
+  "fields": {
+    "post": 11,
+    "user": 3,
+    "text": "Текст комментария №12",
+    "datetime_comment": "2025-06-18T06:15:26.831Z",
+    "rating": 0
+  }
+},
+{
+  "model": "news.comment",
+  "pk": 13,
+  "fields": {
+    "post": 12,
+    "user": 3,
+    "text": "Текст комментария №13",
+    "datetime_comment": "2025-06-18T06:15:26.837Z",
+    "rating": 2
+  }
+},
+{
+  "model": "news.comment",
+  "pk": 14,
+  "fields": {
+    "post": 13,
+    "user": 4,
+    "text": "Текст комментария №14",
+    "datetime_comment": "2025-06-18T06:15:26.843Z",
+    "rating": 0
+  }
+},
+{
+  "model": "news.comment",
+  "pk": 15,
+  "fields": {
+    "post": 14,
+    "user": 3,
+    "text": "Текст комментария №15",
+    "datetime_comment": "2025-06-18T06:15:26.850Z",
+    "rating": 1
+  }
+},
+{
+  "model": "news.comment",
+  "pk": 16,
+  "fields": {
+    "post": 15,
+    "user": 2,
+    "text": "Текст комментария №16",
+    "datetime_comment": "2025-06-18T06:15:26.856Z",
+    "rating": 0
+  }
+},
+{
+  "model": "news.comment",
+  "pk": 17,
+  "fields": {
+    "post": 16,
+    "user": 2,
+    "text": "Текст комментария №17",
+    "datetime_comment": "2025-06-18T06:15:26.863Z",
+    "rating": 1
+  }
+},
+{
+  "model": "account.emailaddress",
+  "pk": 1,
+  "fields": {
+    "user": 5,
+    "email": "test@test.ru",
+    "verified": false,
+    "primary": true
+  }
+},
+{
+  "model": "account.emailaddress",
+  "pk": 3,
+  "fields": {
+    "user": 7,
+    "email": "test2@test.ru",
+    "verified": false,
+    "primary": true
+  }
+},
+{
+  "model": "account.emailaddress",
+  "pk": 4,
+  "fields": {
+    "user": 8,
+    "email": "udens1@rambler.ru",
+    "verified": true,
+    "primary": true
+  }
+},
+{
+  "model": "account.emailaddress",
+  "pk": 5,
+  "fields": {
+    "user": 9,
+    "email": "straigaldvir@yandex.ru",
+    "verified": true,
+    "primary": true
+  }
+},
+{
+  "model": "socialaccount.socialapp",
+  "pk": 1,
+  "fields": {
+    "provider": "google",
+    "provider_id": "",
+    "name": "Google",
+    "client_id": "182836656858-1oirr5co6h8okbfa5pe96aul72fusr7j.apps.googleusercontent.com",
+    "secret": "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",
+    "key": "",
+    "settings": {},
+    "sites": [
+      1
+    ]
+  }
+},
+{
+  "model": "django_apscheduler.djangojob",
+  "pk": "delete_old_job_executions",
+  "fields": {
+    "next_run_time": "2025-07-04T20:00:00Z",
+    "job_state": "gAWVWQQAAAAAAAB9lCiMB3ZlcnNpb26USwGMAmlklIwZZGVsZXRlX29sZF9qb2JfZXhlY3V0aW9uc5SMBGZ1bmOUjEFuZXdzLm1hbmFnZW1lbnQuY29tbWFuZHMucnVuYXBzY2hlZHVsZXI6ZGVsZXRlX29sZF9qb2JfZXhlY3V0aW9uc5SMB3RyaWdnZXKUjBlhcHNjaGVkdWxlci50cmlnZ2Vycy5jcm9ulIwLQ3JvblRyaWdnZXKUk5QpgZR9lChoAUsCjAh0aW1lem9uZZSMCGJ1aWx0aW5zlIwHZ2V0YXR0cpSTlIwIem9uZWluZm+UjAhab25lSW5mb5STlIwJX3VucGlja2xllIaUUpSMDUV1cm9wZS9TYW1hcmGUSwGGlFKUjApzdGFydF9kYXRllE6MCGVuZF9kYXRllE6MBmZpZWxkc5RdlCiMIGFwc2NoZWR1bGVyLnRyaWdnZXJzLmNyb24uZmllbGRzlIwJQmFzZUZpZWxklJOUKYGUfZQojARuYW1llIwEeWVhcpSMCmlzX2RlZmF1bHSUiIwLZXhwcmVzc2lvbnOUXZSMJWFwc2NoZWR1bGVyLnRyaWdnZXJzLmNyb24uZXhwcmVzc2lvbnOUjA1BbGxFeHByZXNzaW9ulJOUKYGUfZSMBHN0ZXCUTnNiYXViaB2MCk1vbnRoRmllbGSUk5QpgZR9lChoIowFbW9udGiUaCSIaCVdlGgpKYGUfZRoLE5zYmF1YmgdjA9EYXlPZk1vbnRoRmllbGSUk5QpgZR9lChoIowDZGF5lGgkiGglXZRoKSmBlH2UaCxOc2JhdWJoHYwJV2Vla0ZpZWxklJOUKYGUfZQoaCKMBHdlZWuUaCSIaCVdlGgpKYGUfZRoLE5zYmF1YmgdjA5EYXlPZldlZWtGaWVsZJSTlCmBlH2UKGgijAtkYXlfb2Zfd2Vla5RoJIloJV2UaCeMFldlZWtkYXlSYW5nZUV4cHJlc3Npb26Uk5QpgZR9lChoLE6MBWZpcnN0lEsAjARsYXN0lEsAdWJhdWJoHymBlH2UKGgijARob3VylGgkiWglXZRoJ4wPUmFuZ2VFeHByZXNzaW9ulJOUKYGUfZQoaCxOaE9LAGhQSwB1YmF1YmgfKYGUfZQoaCKMBm1pbnV0ZZRoJIloJV2UaFYpgZR9lChoLE5oT0sAaFBLAHViYXViaB8pgZR9lChoIowGc2Vjb25klGgkiGglXZRoVimBlH2UKGgsTmhPSwBoUEsAdWJhdWJljAZqaXR0ZXKUTnVijAhleGVjdXRvcpSMB2RlZmF1bHSUjARhcmdzlCmMBmt3YXJnc5R9lGgiaAOMEm1pc2ZpcmVfZ3JhY2VfdGltZZRLAYwIY29hbGVzY2WUiIwNbWF4X2luc3RhbmNlc5RLAYwNbmV4dF9ydW5fdGltZZSMCGRhdGV0aW1llIwIZGF0ZXRpbWWUk5RDCgfoAgUAAAAAAACUaBiGlFKUdS4="
+  }
+},
+{
+  "model": "django_apscheduler.djangojob",
+  "pk": "send_weekly_mailing",
+  "fields": {
+    "next_run_time": "2025-07-07T19:29:00Z",
+    "job_state": "gAWVTQQAAAAAAAB9lCiMB3ZlcnNpb26USwGMAmlklIwTc2VuZF93ZWVrbHlfbWFpbGluZ5SMBGZ1bmOUjDtuZXdzLm1hbmFnZW1lbnQuY29tbWFuZHMucnVuYXBzY2hlZHVsZXI6c2VuZF93ZWVrbHlfbWFpbGluZ5SMB3RyaWdnZXKUjBlhcHNjaGVkdWxlci50cmlnZ2Vycy5jcm9ulIwLQ3JvblRyaWdnZXKUk5QpgZR9lChoAUsCjAh0aW1lem9uZZSMCGJ1aWx0aW5zlIwHZ2V0YXR0cpSTlIwIem9uZWluZm+UjAhab25lSW5mb5STlIwJX3VucGlja2xllIaUUpSMDUV1cm9wZS9TYW1hcmGUSwGGlFKUjApzdGFydF9kYXRllE6MCGVuZF9kYXRllE6MBmZpZWxkc5RdlCiMIGFwc2NoZWR1bGVyLnRyaWdnZXJzLmNyb24uZmllbGRzlIwJQmFzZUZpZWxklJOUKYGUfZQojARuYW1llIwEeWVhcpSMCmlzX2RlZmF1bHSUiIwLZXhwcmVzc2lvbnOUXZSMJWFwc2NoZWR1bGVyLnRyaWdnZXJzLmNyb24uZXhwcmVzc2lvbnOUjA1BbGxFeHByZXNzaW9ulJOUKYGUfZSMBHN0ZXCUTnNiYXViaB2MCk1vbnRoRmllbGSUk5QpgZR9lChoIowFbW9udGiUaCSIaCVdlGgpKYGUfZRoLE5zYmF1YmgdjA9EYXlPZk1vbnRoRmllbGSUk5QpgZR9lChoIowDZGF5lGgkiGglXZRoKSmBlH2UaCxOc2JhdWJoHYwJV2Vla0ZpZWxklJOUKYGUfZQoaCKMBHdlZWuUaCSIaCVdlGgpKYGUfZRoLE5zYmF1YmgdjA5EYXlPZldlZWtGaWVsZJSTlCmBlH2UKGgijAtkYXlfb2Zfd2Vla5RoJIloJV2UaCeMFldlZWtkYXlSYW5nZUV4cHJlc3Npb26Uk5QpgZR9lChoLE6MBWZpcnN0lEsCjARsYXN0lEsCdWJhdWJoHymBlH2UKGgijARob3VylGgkiWglXZRoJ4wPUmFuZ2VFeHByZXNzaW9ulJOUKYGUfZQoaCxOaE9LF2hQSxd1YmF1YmgfKYGUfZQoaCKMBm1pbnV0ZZRoJIloJV2UaFYpgZR9lChoLE5oT0sdaFBLHXViYXViaB8pgZR9lChoIowGc2Vjb25klGgkiGglXZRoVimBlH2UKGgsTmhPSwBoUEsAdWJhdWJljAZqaXR0ZXKUTnVijAhleGVjdXRvcpSMB2RlZmF1bHSUjARhcmdzlCmMBmt3YXJnc5R9lGgiaAOMEm1pc2ZpcmVfZ3JhY2VfdGltZZRLAYwIY29hbGVzY2WUiIwNbWF4X2luc3RhbmNlc5RLAYwNbmV4dF9ydW5fdGltZZSMCGRhdGV0aW1llIwIZGF0ZXRpbWWUk5RDCgfoAgcXHQAAAACUaBiGlFKUdS4="
+  }
+},
+{
+  "model": "django_apscheduler.djangojobexecution",
+  "pk": 1,
+  "fields": {
+    "job": "send_weekly_mailing",
+    "status": "Executed",
+    "run_time": "2025-06-31T19:29:00Z",
+    "duration": "1.60",
+    "finished": "1706729341.60",
+    "exception": null,
+    "traceback": null
+  }
+}
+]

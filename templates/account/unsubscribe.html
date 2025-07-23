@@ -1,0 +1,11 @@
+{% extends 'flatpages/default.html' %}
+{% load i18n %}
+
+{% block title %}
+    {% trans 'Отписаться' %}
+{% endblock title %}
+
+{% block content %}
+    <h1 class="text-center">{{ message }} <i>{{ category }}</i></h1>
+    <hr>
+{% endblock content %}

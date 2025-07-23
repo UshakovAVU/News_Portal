@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Уведомление</title>
+</head>
+<body>
+    <h2>Здравствуйте {{user}}! Новые статьи за неделю в ваших любимых категориях:</h2>
+    <ul>
+        {% for post in posts %}
+            <li><a href="{{ link }}{{ post.get_absolute_url }}">{{ post.title }}</a></li>
+            <p>{{ post.preview }}</p>
+        {% endfor %}
+    </ul>
+</body>
+</html>

@@ -1,0 +1,344 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-03-19 22:33+0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+#: .\news\filters.py:11
+msgid "Название заголовка"
+msgstr "Title"
+
+#: .\news\filters.py:16 .\news\forms.py:17 .\news\models.py:20
+#: .\news\models.py:44 .\news\models.py:88
+msgid "Автор"
+msgstr "Author"
+
+#: .\news\filters.py:17
+msgid "Все авторы"
+msgstr "All authors"
+
+#: .\news\filters.py:22 .\news\forms.py:16 .\news\models.py:83
+#: .\templates\news\category_list.html:28 .\templates\news\posts.html:51
+#: .\templates\news\search.html:26
+msgid "Категория"
+msgstr "Category"
+
+#: .\news\filters.py:23
+msgid "Все категории"
+msgstr "All Categories"
+
+#: .\news\filters.py:29
+msgid "Дата"
+msgstr "Date"
+
+#: .\news\forms.py:14 .\news\models.py:51
+#: .\templates\news\category_list.html:25 .\templates\news\post_delete.html:12
+#: .\templates\news\posts.html:48 .\templates\news\search.html:23
+msgid "Заголовок"
+msgstr "Title"
+
+#: .\news\forms.py:15 .\news\models.py:52 .\templates\news\post_delete.html:14
+msgid "Текст"
+msgstr "Text"
+
+#: .\news\forms.py:26
+msgid "Текст не должен совпадать с заголовком."
+msgstr "The text must not match the title."
+
+#: .\news\models.py:21
+msgid "Рейтинг"
+msgstr "Rating"
+
+#: .\news\models.py:36
+msgid "Название"
+msgstr "Title"
+
+#: .\news\models.py:37
+msgid "Подписчики"
+msgstr "Subscribers"
+
+#: .\news\models.py:48
+msgid "Тип публикации"
+msgstr "Type of publication"
+
+#: .\news\models.py:53
+msgid "Рейтинг публикации"
+msgstr "Publication rating"
+
+#: .\news\models.py:82 .\news\models.py:87 .\news\models.py:95
+msgid "Публикация"
+msgstr "Publication"
+
+#: .\news\models.py:89 .\news\models.py:102
+msgid "Комментарий"
+msgstr "Comment"
+
+#: .\news\models.py:91
+msgid "Рейтинг комментария"
+msgstr "Comment Rating"
+
+#: .\news\views.py:104 .\templates\flatpages\default.html:45
+msgid "Добавить статью"
+msgstr "Add Article"
+
+#: .\news\views.py:104
+msgid "Добавление новой статьи"
+msgstr "Adding a new article"
+
+#: .\news\views.py:106 .\templates\flatpages\default.html:42
+msgid "Добавить новость"
+msgstr "Add News"
+
+#: .\news\views.py:106
+msgid "Добавление новости"
+msgstr "Adding news"
+
+#: .\news\views.py:124
+msgid "Изменить статью"
+msgstr "Change the article"
+
+#: .\news\views.py:124
+msgid "Редактировать статью"
+msgstr "Edit the article"
+
+#: .\news\views.py:126
+msgid "Изменить новость"
+msgstr "Change the news"
+
+#: .\news\views.py:126
+msgid "Редактировать новость"
+msgstr "Edit the news"
+
+#: .\news\views.py:179
+msgid "Вы успешно подписались на рассылку новых публикаций в категории: "
+msgstr "You have successfully subscribed to the newsletter of new publications in the category: "
+
+#: .\news\views.py:189
+msgid "Вы успешно отписаны от рассылки по категории: "
+msgstr "You have successfully unsubscribed from the mailing list by category: "
+
+#: .\templates\403.html:5 .\templates\account\profile.html:5
+msgid "Профиль пользователя"
+msgstr "User Profile"
+
+#: .\templates\403.html:9
+msgid "ДОСТУП ЗАКРЫТ"
+msgstr "ACCESS DENIED"
+
+#: .\templates\403.html:11
+msgid ""
+"Вы не являетесь автором и не можете создавать и редактировать новости или "
+"статьи."
+msgstr "You are not an author and cannot create or edit news or articles."
+
+#: .\templates\403.html:16 .\templates\account\profile.html:43
+msgid "Стать автором"
+msgstr "Become an author"
+
+#: .\templates\403.html:19
+msgid "На главную"
+msgstr "To the main page"
+
+#: .\templates\404.html:5
+msgid "Ошибка 404"
+msgstr "Error 404"
+
+#: .\templates\404.html:10
+msgid "Страница не найдена!"
+msgstr "Page not found!"
+
+#: .\templates\account\profile.html:9
+msgid "Страница авторизованного пользователя"
+msgstr "The authorized user's page"
+
+#: .\templates\account\profile.html:12
+msgid "Вы являетесь автором!"
+msgstr "You are the author!"
+
+#: .\templates\account\profile.html:13
+msgid "Вы можете создавать и редактировать новости и статьи."
+msgstr "You can create and edit news and articles."
+
+#: .\templates\account\profile.html:15
+msgid "Здесь выводится ваша персональная информация."
+msgstr "Your personal information is displayed here."
+
+#: .\templates\account\profile.html:19
+msgid "Имя"
+msgstr "First Name"
+
+#: .\templates\account\profile.html:23
+msgid "Фамилия"
+msgstr "Last Name"
+
+#: .\templates\account\profile.html:27
+msgid "Почта"
+msgstr "EMail"
+
+#: .\templates\account\profile.html:31
+msgid "Никнейм"
+msgstr "Nickname"
+
+#: .\templates\account\profile.html:35
+msgid "Подписки на категории"
+msgstr "Subscriptions to categories"
+
+#: .\templates\account\profile.html:47 .\templates\allauth\layouts\base.html:30
+#: .\templates\flatpages\default.html:60
+msgid "Выход"
+msgstr "Sign Out"
+
+#: .\templates\account\subscribe.html:5 .\templates\news\category_list.html:13
+msgid "Подписаться"
+msgstr "Subscribe"
+
+#: .\templates\account\subscribe.html:12
+msgid ""
+"Теперь на вашу эл. почту будет приходить уведомления при появлении новых "
+"публикаций по данной категории!"
+msgstr "Now you will receive notifications to your email when new publications appear in this category!"
+
+#: .\templates\account\subscribe.html:13
+msgid ""
+"Также каждую неделю будет приходить список публикаций за последнюю неделю!"
+msgstr "Also, a list of publications for the last week will be sent every week!"
+
+#: .\templates\account\unsubscribe.html:5
+#: .\templates\news\category_list.html:17
+msgid "Отписаться"
+msgstr "UnSubscribe"
+
+#: .\templates\allauth\layouts\base.html:16
+msgid "Сообщения:"
+msgstr "Messages"
+
+#: .\templates\allauth\layouts\base.html:23
+msgid "Меню:"
+msgstr "Menu"
+
+#: .\templates\allauth\layouts\base.html:27
+msgid "Изменить Email"
+msgstr "Change Email"
+
+#: .\templates\allauth\layouts\base.html:34
+#: .\templates\flatpages\default.html:62
+msgid "Войти"
+msgstr "Sign In"
+
+#: .\templates\allauth\layouts\base.html:37
+#: .\templates\flatpages\default.html:55
+msgid "Регистрация"
+msgstr "Registration"
+
+#: .\templates\flatpages\default.html:27
+msgid "Главная"
+msgstr "Main"
+
+#: .\templates\flatpages\default.html:36
+msgid "Новости"
+msgstr "News"
+
+#: .\templates\flatpages\default.html:39 .\templates\news\search.html:7
+msgid "Поиск"
+msgstr "Search"
+
+#: .\templates\flatpages\default.html:53
+msgid "Профиль"
+msgstr "Profile"
+
+#: .\templates\flatpages\default.html:87
+msgid "Русский"
+msgstr "English"
+
+#: .\templates\flatpages\home.html:5
+msgid "Новостной Портал"
+msgstr "News Portal"
+
+#: .\templates\flatpages\home.html:10
+msgid "Добро пожаловать!"
+msgstr "Welcome!"
+
+#: .\templates\news\category_list.html:20 .\templates\news\posts.html:43
+#: .\templates\news\search.html:11
+msgid "Новостная лента"
+msgstr "News feed"
+
+#: .\templates\news\category_list.html:22 .\templates\news\posts.html:45
+msgid "Количество публикаций:"
+msgstr "Number of publications:"
+
+#: .\templates\news\category_list.html:26 .\templates\news\posts.html:49
+#: .\templates\news\search.html:24
+msgid "Краткое содержание"
+msgstr "Summary"
+
+#: .\templates\news\category_list.html:27 .\templates\news\post_delete.html:13
+#: .\templates\news\posts.html:50 .\templates\news\search.html:25
+msgid "Дата публикации"
+msgstr "Date of publication"
+
+#: .\templates\news\category_list.html:51 .\templates\news\posts.html:74
+#: .\templates\news\search.html:50
+msgid "Публикаций нет!"
+msgstr "There are no publications!"
+
+#: .\templates\news\no_post.html:5 .\templates\news\post.html:7
+msgid "Новость/Статья"
+msgstr "News/Article"
+
+#: .\templates\news\no_post.html:10
+msgid "Новость или Статья не найдены!"
+msgstr "News or Article not found!"
+
+#: .\templates\news\post.html:21 .\templates\news\post.html:28
+msgid "Редактировать"
+msgstr "Edit"
+
+#: .\templates\news\post.html:24 .\templates\news\post.html:31
+msgid "Удалить"
+msgstr "Delete"
+
+#: .\templates\news\post_create_or_edit.html:14
+msgid "Сохранить"
+msgstr "Save"
+
+#: .\templates\news\post_delete.html:5
+msgid "Удалить новость/статью"
+msgstr "Delete news/article"
+
+#: .\templates\news\post_delete.html:9
+msgid "Вы действительно хотите удалить данную новость?"
+msgstr "Do you really want to delete this news?"
+
+#: .\templates\news\post_delete.html:26
+msgid "Подтвердить"
+msgstr "Confirm"
+
+#: .\templates\news\posts.html:8
+msgid "Все новости"
+msgstr "All news"
+
+#: .\templates\news\posts.html:26
+msgid "Часовой пояс"
+msgstr "Time zone"
+
+#: .\templates\news\search.html:13
+msgid "Количество найденных новостей/статей:"
+msgstr "The number of news/articles found"
+
+#: .\templates\news\search.html:17
+msgid "Найти"
+msgstr "Find"

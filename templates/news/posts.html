@@ -1,0 +1,79 @@
+{% extends 'flatpages/default.html' %}
+{% load i18n %}
+{% load tz %}   <!-- не забываем загрузить тег для работы с часовыми поясами -->
+
+{% load custom_filters %}
+
+{% block title %}
+    {% trans 'Все новости' %}
+{% endblock title %}
+
+{% block extra_head %}
+    <style>
+        body {background-color:
+            {% if current_time.hour >= 19 or current_time.hour <= 7 %}
+                darkcyan
+            {% else %}
+                powderblue
+            {% endif %};}
+    </style>
+{% endblock extra_head %}
+
+{% block content %}
+    {% get_current_timezone as TIME_ZONE %}
+    <form action="" method="POST">
+        {% csrf_token %}
+        <label for="timezone">{% trans 'Часовой пояс' %}:</label>
+        <select name="timezone">
+            {% for tz in timezones %}
+            <option value="{{ tz }}"
+                    {% if tz == TIME_ZONE %}
+                    selected
+                    {% endif %}>
+                {{ tz }}
+            </option>
+            {% endfor %}
+        </select>
+        <input type="submit" value="ok">
+    </form>
+
+    {{ TIME_ZONE }}
+    {{ current_time|timezone:TIME_ZONE }} <!-- Отображаем время в выбранном часовом поясе  -->
+
+    <h1>{% trans 'Новостная лента' %}</h1>
+    {% if news %}
+    <p><i>{% trans 'Количество публикаций:' %} <u>{{news|length}}</u></i></p>
+    <table width="100%">
+        <tr align="center">
+            <th>{% trans 'Заголовок' %}</th>
+            <th>{% trans 'Краткое содержание' %}</th>
+            <th>{% trans 'Дата публикации' %}</th>
+            <th>{% trans 'Категория' %}</th>
+        </tr>
+
+        {% for post in news %}
+        <tr class="{% cycle 'green' 'white' %}">
+            <td align="left" width="55%">
+                {% if post.post_type == "NE" %}
+                    <a class="nav-link" href="/news/{{ post.id }}">{{ post.title|censor }}</a>
+                {% else %}
+                   <a class="nav-link" href="/article/{{ post.id }}">{{ post.title|censor }}</a>
+                {% endif %}
+            </td>
+            <td align="left" width="23%">{{ post.text|censor|truncatechars:20 }}</td>
+            <td width="10%">{{ post.datetime_post|date:'d M Y' }}</td>
+            <td width="12%">
+                {% for category in post.category.all %}
+                    <a href="{% url 'category_list' category.id %}">{{ category }}</a>
+                {% endfor %}
+            </td>
+        </tr>
+        {% endfor %}
+    </table>
+    {% else %}
+        <h2>{% trans 'Публикаций нет!' %}</h2>
+    {% endif %}
+
+{% include "flatpages/paginate.html" %}
+
+{% endblock content %}

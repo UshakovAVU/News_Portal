@@ -1,0 +1,22 @@
+{% extends 'flatpages/default.html' %}
+{% load i18n %}
+
+{% block title %}
+    {% trans 'Профиль пользователя' %}
+{% endblock title %}
+
+{% block content %}
+    <h3>{% trans 'ДОСТУП ЗАКРЫТ' %}</h3>
+    <br>
+    <h5>{% trans 'Вы не являетесь автором и не можете создавать и редактировать новости или статьи.' %}</h5>
+    <br><br>
+    <hr>
+    <div class="text-center" >
+        <button class="btn btn-lg btn-dark">
+            <a style="text-decoration: none; color: white" href="{% url 'upgrade' %}">{% trans 'Стать автором' %}</a>
+        </button>
+        <button class="btn btn-lg btn-dark">
+            <a style="text-decoration: none; color: white" href="{% url 'post_list' %}">{% trans 'На главную' %}</a>
+        </button>
+        </div>
+{% endblock content %}

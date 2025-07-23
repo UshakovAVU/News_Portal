@@ -1,0 +1,50 @@
+{% extends 'flatpages/default.html' %}
+{% load i18n %}
+
+{% block title %}
+    {% trans 'Профиль пользователя' %}
+{% endblock title %}
+
+{% block content %}
+    <h2>{% trans 'Страница авторизованного пользователя' %} {{ request.user.username }}</h2>
+    <br>
+    {% if not is_not_authors %}
+        <h4>{% trans 'Вы являетесь автором!' %}</h4>
+        <div>{% trans 'Вы можете создавать и редактировать новости и статьи.' %}</div>
+    {% endif %}
+    <div>{% trans 'Здесь выводится ваша персональная информация.' %}</div>
+    <br><br>
+    <table>
+        <tr>
+            <th style="text-align: left;">{% trans 'Имя' %}</th>
+            <td style="text-align: right;">{{user.first_name}}</td>
+        </tr>
+        <tr>
+            <th style="text-align: left;">{% trans 'Фамилия' %}</th>
+            <td style="text-align: right;">{{user.last_name}}</td>
+        </tr>
+        <tr>
+            <th style="text-align: left;">{% trans 'Почта' %}</th>
+            <td style="text-align: right;">{{user.email}}</td>
+        </tr>
+        <tr>
+            <th style="text-align: left;">{% trans 'Никнейм' %}</th>
+            <td style="text-align: right;">{{user.username}}</td>
+        </tr>
+        <tr>
+            <th style="text-align: left;">{% trans 'Подписки на категории' %}</th>
+            <td style="text-align: right;"></td>
+        </tr>
+    </table>
+    <hr>
+    <div class="text-center" >
+        {% if is_not_authors %}
+            <button class="btn btn-lg btn-dark">
+                <a style="text-decoration: none; color: white" href="{% url 'upgrade' %}">{% trans 'Стать автором' %}</a>
+            </button>
+        {% endif %}
+        <button class="btn btn-lg btn-dark">
+            <a style="text-decoration: none; color: white" href="{% url 'account_logout' %}">{% trans 'Выход' %}</a>
+        </button>
+    </div>
+{% endblock content %}
